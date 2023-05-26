@@ -142,7 +142,7 @@ namespace m3u8_downloader
             DownloadFFMpeg downloadFFMpeg = new DownloadFFMpeg
             {
                 Process = process,
-                Linker = new LinkerNoEdit(linker.Name, linker.Url, linker.Quality)
+                Linker = new LinkerEdit(linker.Name, linker.Url, linker.Quality)
             };
 
             MainContext mainContext = (MainContext)DataContext;
@@ -176,6 +176,19 @@ namespace m3u8_downloader
                 mainContext.Downloads.Remove(downloadFFMpeg);
             }
         }
+
+        private void Button_Click_AddLinked(object sender, RoutedEventArgs e)
+        {
+            MainContext mainContext = (MainContext)DataContext;
+            mainContext.Linkers.Add(new LinkerEdit("Название", "Ссылка", ""));
+
+        }
+
+        private void Button_Click_Clear(object sender, RoutedEventArgs e)
+        {
+            MainContext mainContext = (MainContext)DataContext;
+            mainContext.Linkers.Clear();
+        }
     }
 
     public class MainContext
@@ -190,12 +203,12 @@ namespace m3u8_downloader
 
     public class TwitchParesetLoader
     {
-        public string Url { get; set; } = "https://www.twitch.tv/xqc";
+        public string Url { get; set; } = "https://www.twitch.tv/orkpod";
     }
 
-    public struct LinkerNoEdit : ILinker
+    public struct LinkerEdit : ILinker
     {
-        public LinkerNoEdit(string name, string url, string quality)
+        public LinkerEdit(string name, string url, string quality)
         {
             Name = name;
             Url = url;
@@ -205,8 +218,6 @@ namespace m3u8_downloader
         public string Name { get; set; } = "название";
         public string Url { get; set; } = "ссылка";
         public string Quality { get; set; } = "качество";
-
-
     }
 
 
