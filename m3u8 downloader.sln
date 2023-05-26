@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m3u8 downloader", "m3u8 downloader\m3u8 downloader.csproj", "{05DA00F6-38FF-4938-8046-5128937EEBC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u3m8 twitch", "u3m8 twitch\u3m8 twitch.csproj", "{E58BEB5B-8722-40FD-9FBE-4D5E616BA79D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{86098FA8-757E-415A-8119-8F5867C93F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m3u8 Linker", "m3u8 Linker\m3u8 Linker.csproj", "{64FDE87D-B9CC-48E3-8F72-20D259077A62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05DA00F6-38FF-4938-8046-5128937EEBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DA00F6-38FF-4938-8046-5128937EEBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DA00F6-38FF-4938-8046-5128937EEBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DA00F6-38FF-4938-8046-5128937EEBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58BEB5B-8722-40FD-9FBE-4D5E616BA79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58BEB5B-8722-40FD-9FBE-4D5E616BA79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58BEB5B-8722-40FD-9FBE-4D5E616BA79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58BEB5B-8722-40FD-9FBE-4D5E616BA79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86098FA8-757E-415A-8119-8F5867C93F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86098FA8-757E-415A-8119-8F5867C93F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86098FA8-757E-415A-8119-8F5867C93F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86098FA8-757E-415A-8119-8F5867C93F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FDE87D-B9CC-48E3-8F72-20D259077A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FDE87D-B9CC-48E3-8F72-20D259077A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FDE87D-B9CC-48E3-8F72-20D259077A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FDE87D-B9CC-48E3-8F72-20D259077A62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1159D80E-A7EE-4AD0-BCA9-F61127506C34}
+	EndGlobalSection
+EndGlobal
